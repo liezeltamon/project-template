@@ -1,6 +1,6 @@
 # project-template
 
-A directory structure project for any computational project. 
+A directory structure template for any computational project. 
 
 ## Requirements
 
