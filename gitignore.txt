@@ -1,53 +1,33 @@
-# Some OS specific tmp files 
-*.DS_Store
-
-# History files
-*.Rhistory
-*.Rapp.history
-
-# User-specific files
-*.Ruserdata
-
-# R Environment Variables
-.Renviron
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-#*.Rproj
-*.Rproj.user/
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-*.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# Ignore these directories inlcuding all files within
-data/
+# Directories
 data-raw/
-*_files
-packages
 z_ignore_git/
-
-# Large files
-*.tar
-*.gz
 
 # Job logs
 *.log.out
 *.log.err
 
-# Other files
-
-*.html
-*.pdf
+# Large data files
+*.gz
 *.RData
 *.rds
-.Rproj.user
+*.tar
+
+# Render files
+*_cache/
+/cache/
+*.knit.md
+*.utf8.md
+*.html
+*.pdf
+
+# R-specific files
+*.Rapp.history
+/*.Rcheck/
+*.Rhistory
+*.Rproj.user/
+*.Ruserdata
+
+# Other files
+*.DS_Store
+*_files
+*.httr-oauth # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
