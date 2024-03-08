@@ -1,5 +1,6 @@
 # Directories
 data-raw/
+!data-raw/README.md
 z_ignore_git/
 
 # Job logs
