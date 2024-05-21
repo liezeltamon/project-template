@@ -1,34 +1,30 @@
-# Directories
-data-raw/
-!data-raw/README.md
-z_ignore_git/
+*.DS_Store
 
-# Job logs
-*.log.out
-*.log.err
-
-# Large data files
-*.gz
+*.Rhistory
+*.Rapp.history
+*.Rproj.user
+*.Ruserdata
 *.RData
 *.rds
-*.tar
+*.qs
 
-# Render files
-*_cache/
-/cache/
-*.knit.md
 *.utf8.md
+*.knit.md
+
+*.log
+*.log.out
+*.log.err
+sps-*
+
+*.tar
+*.gz
 *.html
 *.pdf
+*.xlsx
 
-# R-specific files
-*.Rapp.history
-/*.Rcheck/
-*.Rhistory
-*.Rproj.user/
-*.Ruserdata
-
-# Other files
-*.DS_Store
+data-raw/
 *_files
-*.httr-oauth # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+*_cache
+z_ignore_git/
+
+!data-raw/README.md
