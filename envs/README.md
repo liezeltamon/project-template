@@ -1,4 +1,4 @@
 # 
 
 ## Contents
-   - Environments needed for project e.g. conda environment for reticulate
+   - Environment-related files needed for project e.g. conda environments yaml, instructions how to recreate environments
