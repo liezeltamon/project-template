@@ -8,6 +8,9 @@
 *.rds
 *.qs
 
+__pycache__/
+*.py[cod]
+
 *.utf8.md
 *.knit.md
 
