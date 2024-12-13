@@ -1,6 +1,3 @@
-# Ignore everything (dirs, files, sub-dirs, sub-files)
-/*
-
-# except
-/code
-/utils
+data/
+data-raw/
+results/
