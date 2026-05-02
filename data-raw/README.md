@@ -1,5 +1,9 @@
-# 
+## Raw data
 
-## Contents
-  - Large source data or files that cannot be pushed i.e. cannot be added to data/, data/ will likely contain symbolink links to files here
-  - Add README.md for each data or describe each in one README.md
+Large, private, or external source data that should usually stay out of version control.
+
+### Contents
+
+- Large source files that should not be added to `data/`.
+- Files that may be referenced by symbolic links from `data/`.
+- Data source notes, either in this README or in a README beside each dataset.

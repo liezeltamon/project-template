@@ -1,5 +1,8 @@
-#
+## Results
 
-## Contents
-  - All results from analyses subdividing into subdirectories for each task
-  - Per subdirectory (an analysis / experiment), have either a README.md that records every step or a driver script that can carry out entire analysis automatically
+Generated analysis outputs.
+
+### Contents
+
+- One subdirectory per task, analysis, or experiment.
+- A `README.md` or driver script in each subdirectory describing how the result was produced.

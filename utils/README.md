@@ -1,6 +1,9 @@
-# 
+## Utilities
 
-## Contents
-  - Generic functions
-  - Other code not necessarily integrated with analyses code in code/
-  - Data munging scripts
+Reusable helper code for scripts.
+
+### Contents
+
+- Generic functions shared across scripts.
+- Helper scripts that are not top-level analysis drivers.
+- Small data-munging utilities used by scripts.
